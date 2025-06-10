@@ -1,2 +1,2 @@
 # FlipkartDailyThinkifyAssignment
-Thinkify Assignment - FlipkartDaily - Deliver groceries and daily essentials by next morning
+Thinkify Assignment - Flipkart Daily - Deliver groceries and daily essentials by next morning
