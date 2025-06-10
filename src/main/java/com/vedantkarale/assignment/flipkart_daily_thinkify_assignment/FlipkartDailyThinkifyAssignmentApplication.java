@@ -18,12 +18,14 @@ public class FlipkartDailyThinkifyAssignmentApplication {
 		InventoryService service = new InventoryService();
 
 		// Add Items
+		System.out.println("\n*************** Add Items ***************");
 		service.addItem("Amul", "Milk", 100);
 		service.addItem("Amul", "Curd", 50);
 		service.addItem("Nestle", "Milk", 60);
 		service.addItem("Nestle", "Curd", 90);
 
 		// Add Inventory
+		System.out.println("\n*************** Add Inventory ***************");
 		service.addInventory("Amul", "Milk", 10);
 		service.addInventory("Nestle", "Milk", 5);
 		service.addInventory("Nestle", "Curd", 10);
