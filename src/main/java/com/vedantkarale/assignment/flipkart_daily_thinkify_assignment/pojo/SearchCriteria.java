@@ -22,7 +22,7 @@ public class SearchCriteria {
         this.categories = categories;
         this.priceFrom = priceFrom;
         this.priceTo = priceTo;
-        this.orderBy = orderBy;
+        this.orderBy = (orderBy != null) ? orderBy : "price";
         this.ascending = ascending;
     }
 

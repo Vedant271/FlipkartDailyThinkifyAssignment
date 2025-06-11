@@ -54,7 +54,7 @@ public class Item {
 
     @Override
     public String toString() {
-        return brand + ", " + category + ", " + quantity;
+        return brand + " - " + category + " - " + price + " - " + quantity;
     }
 
     public void addQuantity(int qty) {
